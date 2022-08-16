@@ -6,6 +6,7 @@ public class Televisao {
     public int canal = 1;
     public int volume = 0;
     public boolean ligado;
+    public String nome;
     
     public int getCanal() {
 		return canal;
@@ -25,6 +26,13 @@ public class Televisao {
 	public void setLigado(boolean ligado) {
 		this.ligado = ligado;
 	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
 	
     
     public Televisao() {
